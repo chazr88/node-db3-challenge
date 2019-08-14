@@ -27,9 +27,3 @@ On Orders.EmployeeId = Employees.EmployeeId
 ### (Stretch)  Displays CategoryName and a new column called Count that shows how many products are in each category. Shows 9 records.
 
 ### (Stretch) Display OrderID and a  column called ItemCount that shows the total number of products placed on the order. Shows 196 records. 
-
-SELECT OrderID, CustomerName, LastName FROM Orders
-JOIN Customers
-On Orders.CustomerId = Customers.CustomerId
-Join Employees
-On Orders.EmployeeId = Employees.EmployeeId
